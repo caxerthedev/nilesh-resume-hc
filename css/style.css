@@ -1,0 +1,73 @@
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: black;
+}
+
+
+.gradient-hero {
+    background: linear-gradient(to right,#CDE8E5,#7AB2B2, #4D869C);
+    padding: 20px;
+    color: white;
+  }
+
+
+  .flex-experience > .container{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    width:100%;
+    gap: 10px;
+  }
+
+
+  .card-title{
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .responsibilities{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+
+  .exp-cont{
+    text-align: center;
+  }
+
+
+  .exp-cont{
+    background-color: #CDE8E5;
+  }
+
+
+  .firstexp {
+    grid-area: 1/1/2/-1;
+  }
+
+  .card {
+    background-color: #CDE8E5;
+  }
+
+  .blockquote-footer::before {
+    content: "";
+}
+
+.Educations{
+    margin-top: 100px;
+}
+
+.remp{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.cardss{
+    background-color: #CDE8E5;
+    color: black;
+}
